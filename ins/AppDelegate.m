@@ -23,7 +23,13 @@
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[TestViewController new]];
     [self.window makeKeyAndVisible];
     
-    
+    /*
+    UILabel *label = [[UILabel alloc] init];
+    label.text = str;
+    label.textColor = [UIColor whiteColor];
+    label.font = [UIFont systemFontOfSize:12];
+    label.textAlignment = NSTextAlignmentLeft;
+    */
     return YES;
 }
 
